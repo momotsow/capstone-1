@@ -13,14 +13,17 @@
   padding-top: 30px;
 }
 
+.about-section {
+  height: 100vh;
+}
 .headline-img1 {
-  background-image: url(images/headling-bg.png);
+  background-image: url(images/6009667.jpg);
+  opacity: 0.2;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
   min-height: 100%;
-  height: 100%;
   z-index: -1;
 }
 
@@ -32,6 +35,7 @@
 
 .about-con {
   text-align: center;
+  /* margin-top: 50px; */
 }
 
 .section2 {
@@ -105,14 +109,32 @@
 .videos {
   text-align: center;
 }
+.card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  
+  width: 300px; 
+  height: 400px; 
+  
+  border-radius: 4px; 
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+  transition: box-shadow 0.56s ease-in-out;
+}
+
+.card_title{ 
+  align-self: flex-end; padding: 0.5rem;
+  color: rgba(255,255,255,.90); font-size: 2rem;
+  line-height: 1;font-weight: 600; }  
+
 
 .v1 {
   background-image: linear-gradient(rgba(29, 38, 113, 0.8), rgba(86, 143, 180, 0.8)), url(images/v1.jpg);
 
-  /* background-size: 300px auto; */
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   -webkit-text-fill-color: #fff;
-  margin-bottom: 20px;
 }
 
 img {
@@ -122,16 +144,15 @@ img {
 .v2 {
   background-image: linear-gradient(rgba(29, 38, 113, 0.8), rgba(86, 143, 180, 0.8)), url(images/v2.jpg);
 
-  /* background-size: 300px auto; */
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   -webkit-text-fill-color: #fff;
 }
 
 .vtext {
-  text-align: left;
   padding-top: 45px;
   height: 200px;
-  padding-left: 45px;
 }
 
 .vtext p {
@@ -154,8 +175,8 @@ img {
     margin-right: 20px;
     margin-bottom: 0;
   }
-
-  .headline-img1 {
-    height: 110%;
+  .about-con {
+    margin-top: 100px;
   }
+
 }

@@ -67,17 +67,20 @@ a {
 }
 
 .hero-section {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  height: 100vh;
+
 }
 
 .headline-img {
-  background-image: url(images/headling-bg.png);
+  background-image: url(images/6009667.jpg);
+  opacity: 0.2;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
   min-height: 100%;
-  height: 137%;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -106,7 +109,7 @@ a {
   margin-top: 30px;
   border: 2px solid #fff;
   padding: 20px;
-  color: #D3D3D3;
+  color: #272A31;
   background: #e0dfe4;
 }
 
@@ -206,9 +209,14 @@ hr {
 }
 
 .program-bg {
-  background-image: url(images/Abstract-Pattern-01.jpg);
+
+  background-color: #3d3d3d;
+  opacity: 0.8;
+  background-image: radial-gradient(#3d3d3d 0.5px, grey 0.5px);
+  background-size: 10px 10px;
+  /* background-image: url(images/Abstract-Pattern-01.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   position: absolute;
   min-height: 100%;
   min-width: 100%;
@@ -228,20 +236,18 @@ hr {
   position: relative;
 }
 
-.speak-cont {
-  background: url(images/circle-02.png) top no-repeat;
-  z-index: -1;
-  position: relative;
-}
 
 .speakers-img {
   width: 100px;
   height: 100px;
   bottom: 10px;
-  border-radius: 50%;
-  margin-left: 15px;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.ml-5 {
+  margin-left: 5px;
+}
 .grey-line {
   margin: 0 !important;
   color: grey !important;
@@ -450,7 +456,7 @@ footer {
   }
 
   .headline {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .title {
@@ -506,7 +512,13 @@ footer {
     text-align: center;
     display: block;
     flex-direction: column !important;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-right: 10px;
+  }
+
+  .speaker-name {
+    font-weight: 900;
   }
 
   .start-learning {
@@ -515,8 +527,8 @@ footer {
 
   .whole-program {
     display: block;
-    color: rgb(187, 187, 187);
-    text-decoration: underline;
+    color: #fff !important;
+    text-decoration: underline !important;
     font-weight: 600;
     text-align: center;
   }
@@ -551,6 +563,9 @@ footer {
 
   .partner {
     margin-top: 30px;
+  }
+  .social  {
+    color: #fff
   }
 }
 
