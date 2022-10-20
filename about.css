@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.active {
+  font-weight: 600;
+  color: #EC5242 !important;
+}
+
+.intro1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #EC5242;
+  padding-top: 30px;
+}
+
+.headline-img1 {
+  background-image: url(images/headling-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.headline-img {
+  top: 0;
+  left: 0;
+  height: 0;
+}
+
+.about-con {
+  text-align: center;
+}
+
+.section2 {
+  text-align: center;
+}
+
+.title1 {
+  font-weight: bolder;
+  font-size: 35px;
+  color: #EC5242;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.discription1 {
+  border: 1px solid gray;
+  background: #fff;
+  padding: 15px 15px 15px 15px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 30px;
+}
+
+.about-text1 {
+  font-family: Lato, sans-serif;
+  color: rgb(51, 51, 51);
+  display: block;
+  margin-bottom: 80px;
+}
+
+.email {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.about-text2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.desh {
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  width: 30px;
+}
+
+.p-tag1 {
+  color: rgb(51, 51, 51);
+}
+
+.logo2 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #EC5242;
+  border: 1px solid gray;
+  padding: 20px 15px 20px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.see {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.about-disc {
+  color: rgb(51, 51, 51);
+}
+
+.videos {
+  text-align: center;
+}
+
+.v1 {
+  background-image: linear-gradient(rgba(29, 38, 113, 0.8), rgba(86, 143, 180, 0.8)), url(images/v1.jpg);
+
+  /* background-size: 300px auto; */
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: #fff;
+  margin-bottom: 20px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.v2 {
+  background-image: linear-gradient(rgba(29, 38, 113, 0.8), rgba(86, 143, 180, 0.8)), url(images/v2.jpg);
+
+  /* background-size: 300px auto; */
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: #fff;
+}
+
+.vtext {
+  text-align: left;
+  padding-top: 45px;
+  height: 200px;
+  padding-left: 45px;
+}
+
+.vtext p {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.partner {
+  margin-top: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+  .videos {
+    display: flex;
+    min-height: 180px;
+    justify-content: center;
+  }
+
+  .v1 {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .headline-img1 {
+    height: 110%;
+  }
+}

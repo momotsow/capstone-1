@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -12,7 +11,7 @@ ul {
 }
 
 ul.p-cta {
-  color: #0099d0 !important;
+  color: #EC5242 !important;
 }
 
 a {
@@ -63,7 +62,7 @@ a {
   background: none;
   font-size: 40px;
   font-weight: 100;
-  color: #1a2236;
+  color: #272A31;
   margin-left: 20px;
 }
 
@@ -90,13 +89,13 @@ a {
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 10px;
-  color: #0099d0;
+  color: #EC5242;
 }
 
 .title {
   font-weight: bolder;
   font-size: 35px;
-  background-image: url(images/walkator-klMii3cR9iI-unsplash.jpg);
+  background-image: url(images/head1.jpg);
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -107,7 +106,7 @@ a {
   margin-top: 30px;
   border: 2px solid #fff;
   padding: 20px;
-  color: gray;
+  color: #D3D3D3;
   background: #e0dfe4;
 }
 
@@ -136,7 +135,7 @@ a {
 hr {
   width: 50px;
   margin: 0 auto !important;
-  color: #0099d0 !important;
+  color: #EC5242 !important;
   opacity: 0.99 !important;
 }
 
@@ -167,7 +166,7 @@ hr {
 .t1 {
   font-family: Lato, sans-serif;
   font-weight: 600;
-  color: #0099d0;
+  color: #EC5242;
   margin-bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
@@ -180,7 +179,7 @@ hr {
 
 .start-learning {
   color: #fff !important;
-  background: #0099d0;
+  background: #EC5242;
   font-family: Lato, sans-serif;
   font-size: 20px;
   padding: 15px 25px 15px 25px;
@@ -254,7 +253,7 @@ hr {
 }
 
 .speaker-cap {
-  color: #0099d0;
+  color: #EC5242;
 }
 
 .box1 {
@@ -270,7 +269,7 @@ hr {
 }
 
 .read-more {
-  border: 1px solid #0099d0;
+  border: 1px solid #EC5242;
   background: #fff;
   color: #000;
   font-family: Lato, sans-serif;
@@ -399,12 +398,12 @@ footer {
   .nav-list > ul li a:hover,
   .nav-list > ul li a:active {
     font-weight: 600;
-    color: #0099d0 !important;
+    color: #EC5242 !important;
   }
 
   .nav-list ul li.p-cta.call2action a:hover {
     background: #fff;
-    color: #0099d0 !important;
+    color: #EC5242 !important;
   }
 
   .mobile-menu {
@@ -438,7 +437,7 @@ footer {
 
   .call2action {
     display: flex;
-    background: #0099d0;
+    background: #EC5242;
     padding: 10px;
   }
 
