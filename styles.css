@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 80px !important;
+  }
+  
+  ul.p-cta {
+    color: #0099d0 !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  .mobile-menu {
+    margin-top: 20px;
+  }
+  
+  .secondary-cta {
+    display: none;
+  }
+  
+  .p-cta {
+    font-family: poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .logo {
+    display: none;
+  }
+  
+  .call2action {
+    display: none;
+  }
+  
+  .nav-list.menu-btn {
+    display: block;
+  }
+  
+  .nav-list {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    height: 100vh;
+  }
+  
+  #mobile-exit {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 40px;
+    font-weight: 100;
+    color: #1a2236;
+    margin-left: 20px;
+  }
+  
+  .hero-section {
+    margin-bottom: 60px;
+  }
+  
+  .headline-img {
+    background-image: url(images/headling-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    height: 137%;
+    z-index: -1;
+  }
+  
+  .font-face {
+    font-family: poppins, sans-serif;
+  }
+  
+  .intro {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0099d0;
+  }
+  
+  .title {
+    font-weight: bolder;
+    font-size: 35px;
+    background-image: url(images/walkator-klMii3cR9iI-unsplash.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
