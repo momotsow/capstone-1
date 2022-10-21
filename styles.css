@@ -212,10 +212,6 @@ hr {
   opacity: 0.8;
   background-image: radial-gradient(#3d3d3d 0.5px, grey 0.5px);
   background-size: 10px 10px;
-
-  /* background-image: url(images/Abstract-Pattern-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
   position: absolute;
   min-height: 100%;
   min-width: 100%;
@@ -233,6 +229,7 @@ hr {
 .main-speakers > div.p-cont > p.program-title {
   color: #000;
   position: relative;
+  font-weight: 900;
 }
 
 .speakers-img {
@@ -244,7 +241,8 @@ hr {
 }
 
 .ml-5 {
-  margin-left: 5px;
+  margin-left: 10px;
+  text-align: left;
 }
 
 .grey-line {
@@ -255,6 +253,7 @@ hr {
 
 .box {
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .speaker-cap {
@@ -317,9 +316,11 @@ hr {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 15px 25px 15px 25px;
+  background-color: #303030;
+  color: #fff;
 }
 
 .f-logo {
@@ -331,6 +332,11 @@ footer {
 
 .footer-text {
   word-wrap: break-word;
+}
+
+.speaker-name {
+  font-weight: 900;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 425px) {
@@ -514,10 +520,6 @@ footer {
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     margin-right: 10px;
-  }
-
-  .speaker-name {
-    font-weight: 900;
   }
 
   .start-learning {
