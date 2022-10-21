@@ -16,6 +16,7 @@
 .about-section {
   height: 100vh;
 }
+
 .headline-img1 {
   background-image: url(images/6009667.jpg);
   opacity: 0.2;
@@ -108,21 +109,26 @@
 .videos {
   text-align: center;
 }
+
 .card {
   position: relative;
   overflow: hidden;
   display: flex;
-  width: 300px; 
-  height: 400px; 
-  border-radius: 4px; 
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+  width: 300px;
+  height: 400px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.56s ease-in-out;
 }
 
-.card_title{ 
-  align-self: flex-end; padding: 0.5rem;
-  color: rgba(255,255,255,.90); font-size: 2rem;
-  line-height: 1;font-weight: 600; }  
+.card_title {
+  align-self: flex-end;
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 600;
+}
 
 .v1 {
   background-image: linear-gradient(rgba(29, 38, 113, 0.8), rgba(86, 143, 180, 0.8)), url(images/v1.jpg);
@@ -169,6 +175,7 @@ img {
     margin-right: 20px;
     margin-bottom: 0;
   }
+
   .about-con {
     margin-top: 100px;
   }
