@@ -70,7 +70,7 @@ speakersObj1.forEach((speaker1) => {
 speakersObj1.forEach((speaker1) => {
   window.addEventListener('load', () => {
     const popUpSection = document.createElement('section');
-    popUpSection.classList.add('col-md-6','col-sm-12', 'col-lg-6','col-sm-12');
+    popUpSection.classList.add('col-md-6', 'col-sm-12', 'col-lg-6', 'col-sm-12');
     popUpSection.innerHTML = `
             <div class="speakers">
                 <div class="speak-cont col-md-3">
@@ -144,7 +144,7 @@ speakersObjMore.forEach((speaker1) => {
 speakersObjMore.forEach((speaker1) => {
   window.addEventListener('load', () => {
     const popUpSection = document.createElement('section');
-    popUpSection.classList.add('col-md-6','col-sm-12', 'col-lg-6','col-sm-12');
+    popUpSection.classList.add('col-md-6', 'col-sm-12', 'col-lg-6', 'col-sm-12');
     popUpSection.innerHTML = `
             <div class="speakers">
                 <div class="speak-cont col-3">
