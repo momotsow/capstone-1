@@ -12,7 +12,7 @@ For this repository, I've created html templates and styling files in order to b
 - Git & Github
 
 ## Live Demo (if available)
-
+[Live Demo Link]: https://momotsow.github.io/capstone-1/
 
 ### Install
 
