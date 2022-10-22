@@ -319,8 +319,6 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   padding: 15px 25px 15px 25px;
-  background-color: #303030;
-  color: #fff;
 }
 
 .f-logo {
@@ -350,6 +348,15 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    background-color: #303030;
+    color: #fff;
+  }
+
   .hero-section {
     margin-bottom: 0;
   }

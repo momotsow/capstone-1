@@ -2,7 +2,7 @@
 
 # Capstone One
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+For this repository, I've created html templates and styling files in order to built a responsive first capstone project,  which can help to easy explorate profiles from differents devices.
 
 ## Built With
 
@@ -40,7 +40,7 @@ $ cd capstone1.git
 
 ## Authors
 
-👤 **Happen Mathebula**
+👤 **Khomotso Mkansi**
 
 - GitHub: [@Momotsow](https://github.com/momotsow)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/khomotso-prudence-mkansi-aa7794b7/)

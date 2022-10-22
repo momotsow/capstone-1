@@ -147,10 +147,10 @@ speakersObjMore.forEach((speaker1) => {
     popUpSection.classList.add('col-md-6', 'col-sm-12', 'col-lg-6', 'col-sm-12');
     popUpSection.innerHTML = `
             <div class="speakers">
-                <div class="speak-cont col-md-3">
+                <div class="speak-cont col-sm-3 col-md-4">
                     <img src="${speaker1.Image}" alt="first speaker" class="speakers-img">
                 </div>
-                <div class="col-md-9 ml-5">
+                <div class="col-sm-9 col-md-8 ml-5">
                     <div class="box">
                         <p class="speaker-name">${speaker1.name}</p>
                         <cite class="speaker-cap">${speaker1.caption}</cite>
