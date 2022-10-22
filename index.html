@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+</head>
+<body>
+    <section class="hero-section">
+        <div class="headline-img"></div>
+        <div class="secondary-cta">
+            <ul class="font-face second-cta container">
+                <li class="s-list"><a class="social" href="#"><img src="./images/twitter.svg" alt="twitter"></a></li>
+                <li class="s-list"><a class="social" href="#"><img src="./images/facebook.svg" alt="facebook"></a></li>
+                <li class="s-list"><a href="#">English</a></li>
+                <li class="s-list"><a href="#">My Page</a></li>
+                <li class="s-list"><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <header>
+            <nav class="container">
+                <div class="logoDiv">
+                    <a class="logo font-face" href="index.html">&lt;/&gt;ITalk</a>
+                </div>
+
+                <img class="mobile-menu pb-4" id="mobileMenu" src="images/ic_menu.svg" alt="Open Navigation">
+                
+                <div class="nav-list">
+                    <span id="mobile-exit">&times;</span>
+                    <ul>
+                        <li class="p-cta"><a href="about.html">About</a></li>
+                        <li class="p-cta"><a href="#">Program</a></li>
+                        <li class="p-cta"><a href="#">join</a></li>
+                        <li class="p-cta"><a href="#">Sponsor</a></li>
+                        <li class="p-cta"><a href="#">News</a></li>
+                        <li class="p-cta call2action"><a href="#">Start Now</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="headline">
+                <p class="intro font-face">Welcome to "ITalk"</p>
+                <h1 class="title font-face">Where we discuss matters that matters to us</h1>
+                <p class="discription font-face">Stay up to date with matters that affect young people, trending skills that are in demand all over the world :)</p>
+                <p class="date font-face">LEARN EVERYDAY + LIFE TIME SUPPORT</p>
+                <p class="location font-face">We are fully online | Support team available 24 hours |</p>
+            </div>
+        </div>
+    </section>
+    <section class="main-program">
+        <div class="program-bg"></div>
+        <div class="p-cont">
+            <p class="program-title">Main Program</p>
+            <hr>
+        </div>
+        
+        <div class="container wrapper">
+            <div class="card">
+                <div class="col-6 card-title">
+                    <img class="p-icon" src="images/lecturer.png" alt="lecture image">
+                    <p class="t1">Lecture</p>
+                </div>
+                <p class="program-disc">Watch some of our meterials from various expect across the world.</p>
+            </div>
+            <div class="card">
+                <div class="col-6 card-title">
+                    <img class="p-icon" src="images/board.png" alt="lecture image">
+                    <p class="t1">Exhibition</p>
+                </div>
+                <p class="program-disc">Our board contain timetables and announcements.</p>
+            </div>
+            <div class="card">
+                <div class="col-6 card-title">
+                    <img class="p-icon" src="images/chat.png" alt="lecture image">
+                    <p class="t1">Forum</p>
+                </div>
+                <p class="program-disc">Have questions, drop us as chat.</p>
+            </div>
+            <div class="card">
+                <div class="col-6 card-title">
+                    <img class="p-icon" src="images/workshop.png" alt="lecture image">
+                    <p class="t1">Mentors</p>
+                </div>
+                <p class="program-disc">You are assigned a personal mentor</p>
+            </div>
+            <div class="card">
+                <div class="col-6 card-title">
+                    <img class="p-icon" src="images/meeting.png" alt="lecture image">
+                    <p class="t1">Meetings</p>
+                </div>
+                <p class="program-disc">We have weekly meetings to address challenges we are faced.</p>
+            </div>
+        </div>
+        <div class="button">
+            <a class="start-learning" href="#">Start Learning</a>
+        </div>
+        <a class="whole-program">SEE THE WHOLE PROGRAM</a>
+    </section>
+     <!-- speaker section -->
+     <section class="container main-speakers">
+        <div class="p-cont">
+            <p class="program-title">Featured Speakers</p>
+            <hr>
+        </div>
+
+        <div id="dynamic-page" class="row"></div>
+        <div id="more" class="row grid"></div>
+      
+        <div class="read-button">
+            <button onclick="ReadMore()" class="read-more" id="toggle">MORE<i class="fa fa-angle-down fa-lg"></i></button>
+        </div>
+    </section>
+    <!-- partner section -->
+    <section class="partner">
+        <div class="p-cont">
+            <p class="program-title">Partner</p>
+            <hr>
+        </div>
+        <div class="partner-imgs">
+            <img src="images/absa-logo-round.svg" class="absa" alt="absa">
+            <img src="images/vodacom-logo.png" class="vodacom" alt="vodacom logo">
+            <img src="images/googlelogo_color_92x30dp.png" alt="google" class="google">
+            <img src="images/microsofr.png" alt="microsoft" class="micro">
+            <img src="images/aws_smile-header-mobile-en-white_48x29@2x.png" alt="aws" class="aws">
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p class="f-logo">ITalk</p>
+        <div class="footer-text">
+            <span>2022 ILearn, some rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
